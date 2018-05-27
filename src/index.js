@@ -37,6 +37,11 @@ class App extends Component {
 
     return (
       <div>
+        <div className="main-description">
+          <h1>Udemy Course: <small class="text-muted">Modern React with Redux</small></h1>
+          <small class="text-muted">WIP: Create react app and deploy</small>
+          <p>Understanding core knowledge required to build React components and structure applications with Redux.</p>
+        </div>
         <SearchBar onSearchTermChange={ videoSearch }/>
         <VideoDetail video={ this.state.selectedVideo } />
         <VideoList

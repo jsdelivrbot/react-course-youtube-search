@@ -25,3 +25,7 @@
 .list-group-item:hover {
   background-color: #eee;
 }
+
+.main-description {
+  padding: 20px;
+}
